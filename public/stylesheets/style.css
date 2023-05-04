@@ -426,6 +426,7 @@ a{
   .auImg {
     width: 95%;
     opacity: 0.5;
+    margin: auto
   }
 
   .auOl {
@@ -440,11 +441,16 @@ a{
 
   .resenaContainer {
     align-items: center;
+    width: 100%;
   }
 
-  img .resenaBox {
-    width: 80%;
-    position: relative
+  .resenaBox {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .resenaBox img {
+    clip-path: inset(0px 0px 0px 0px)
   }
   
   .resenaBox2 {
