@@ -1,0 +1,473 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "roboto";
+  list-style: none;
+}
+
+:root {
+  --blue: rgba(30, 48, 80, 1);
+  --gray: rgba(81, 79, 79, 1);
+}
+
+.header {
+  background-color:var(--blue);
+  width: 100%x;
+  height: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerText {
+  margin: 20px;
+  font-size: 20px;
+}
+
+ 
+.mainImgContainer {
+  position: relative;
+  width: 100%;
+  
+}
+
+.mainImg {
+  width: 100%;
+  opacity: 0.4;
+}
+
+.dasLogo{
+  position: absolute;
+  top: 28%;
+  left: 10%;
+  width: 40%
+}
+
+.hablemosContainerContainer {
+  position: relative;
+  top:-140px
+}
+
+.hablemosContainer {
+  padding: 20px;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+}
+
+.imgText {
+  color: var(--gray);
+  align-items: center;
+  font-size: 3.5vw;
+  height: 100%;
+  line-height: 199.5%;
+  margin-right: 5px;
+}
+
+.btnWp {
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  background: #0df053;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 35px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,.3);
+  margin: 2px
+}
+
+.blanco {
+  color:white
+}
+
+.brandsContainer {
+  background: var(--gray);
+  width: 100%;
+}
+
+.brandTitle {
+  color: rgb(232, 232, 232);
+  text-align: center;
+  font-size: 50px;
+  padding-top: 30px;
+}
+
+.brands{
+  margin: auto;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.brandLogo {
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  margin: auto
+}
+
+.stBoxContainer {
+  background-color: var(--blue);
+  width: 500px;
+  height: 320px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.text1 {
+  font-size: 45px;
+  color: white;
+  padding: 20px;
+}
+
+.whiteStripe {
+  width: 460px;
+  height: 7px;
+  background-color: white;
+  margin: auto;
+}
+
+.text2 {
+  font-size: 35px;
+  color: white;
+  padding: 20px;
+  width: 350px;
+}
+
+.btnWp2{
+  position: relative;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  top: -80px;
+  left: 420px;
+  background: #0df053;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 40px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,.3);
+}
+
+.specContainer {
+  padding: 60px;
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.spec {
+  color: var(--blue);
+  font-size: 60px;
+  padding: 20px
+}
+
+.specText {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.auContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.auBox {
+  background-color: var(--blue);
+  width: 500px;
+  height: 310px;
+}
+
+.textau1 {
+  font-size: 35px;
+  color: white;
+  padding: 20px;
+}
+
+.textau2 {
+  font-size: 25px;
+  color: white;
+  padding: 20px;
+}
+
+.auBox2 {
+  position: relative;
+  text-align: center;
+}
+
+.auImg {
+  width: 500px;
+  height: auto;
+  opacity: 0.5;
+}
+
+.auOl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 3;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.resenaContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.resenaBox {
+  opacity: 0.8;
+}
+
+.resenaBox2 {
+  width: 100%;
+  background-color: var(--blue);
+  width: 500px;
+  height: 380px;
+}
+
+.textResena1 {
+  font-size: 30px;
+  color: white;
+  padding: 20px;
+}
+
+.resenaStarBox {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.resena {
+  width: 400px;
+}
+
+.textResena2 {
+  font-size: 20px;
+  color: white;
+  padding: 10px 0px 0px 20px;
+}
+
+a{
+  color: inherit;
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color: var(--blue);
+}
+
+.footerBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logoFooter {
+  width: 200px;
+}
+
+.socialNetworks{
+  color: white;
+}
+
+.SN {
+  font-size: 40px;
+  padding: 20px
+}
+
+@media (max-width: 768px) {
+  .header {
+    background-color:var(--blue);
+    width: 100%x;
+    height: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headerText {
+    font-size: 13px;
+  }
+
+  .hablemosContainerContainer {
+    position: relative;
+    top:-50px
+  }
+
+  .hablemosContainer {
+    padding: 10px;
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+  }
+
+  .btnWp {
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: #0df053;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,.3);
+    margin: 2px
+  }
+
+  .brandTitle {
+    color: rgb(232, 232, 232);
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+  }
+
+  .stBoxContainer {
+    background-color: var(--blue);
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    margin-top: 60px;
+  }
+
+  .text1 {
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+  }
+  
+  .whiteStripe {
+    width: 87%;
+    height: 4px;
+    background-color: white;
+    margin: auto;
+  }
+  
+  .text2 {
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .btnWp2{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    top: -40px;
+    left: 240px;
+    background: #0df053;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,.3);
+  }
+
+  .specContainer {
+    display: block;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+  }
+
+  .specBox {
+    margin: 10px
+  }
+
+  .auContainer {
+    display: block;
+    margin: 20px;
+    margin: auto;
+
+  }
+
+  .auBox {
+    width: 300px;
+    height: 328px;
+    margin: auto;
+  }
+
+  .auBox2 {
+    padding: 20px
+  }
+  
+  .textau1 {
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+  }
+
+  .textau2 {
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    width: 300px;
+  }
+
+  .auImg {
+    width: 80%;
+    opacity: 0.5;
+  }
+
+  .auOl {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 2;
+    font-weight: 450;
+    font-size: 20px;
+  }
+
+  .resenaContainer {
+    align-items: center;
+  }
+
+  img .resenaBox {
+    width: 80%;
+    position: relative
+  }
+  
+  .resenaBox2 {
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    margin: auto;
+  }
+
+  .textResena1 {
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+  }
+
+  .resenaStarBox {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .resena {
+    position: relative;
+    width: 90%;
+    margin: auto
+  }
+}
