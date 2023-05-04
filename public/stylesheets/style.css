@@ -424,7 +424,7 @@ a{
   }
 
   .auImg {
-    width: 80%;
+    width: 95%;
     opacity: 0.5;
   }
 
@@ -433,7 +433,7 @@ a{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    line-height: 2;
+    line-height: 1.5;
     font-weight: 450;
     font-size: 20px;
   }
