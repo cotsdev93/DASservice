@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <!-- ViewPort -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body>
@@ -25,10 +27,10 @@
       <div class="mainImgContainer">
         <img  class="mainImg" src="images/mainImg.jpg" alt="">
           <div class="imgTextContainer">
-            <img  class="dasLogo" src="images/das.png" alt="">
+            <img  class="dasLogo" src="images/das.png" alt="" data-aos="fade-right">
           </div>
           <div class="hablemosContainerContainer">
-            <div class="hablemosContainer">
+            <div class="hablemosContainer" data-aos="fade-left">
               <h4 class="imgText">Hola! Hablemos por aca! </h4>
                 <div class="btnWp">
                   <a href="https://wa.me/91155975580"  target="_blank"><i class="fab fa-whatsapp blanco"></i></a>
@@ -38,8 +40,10 @@
       </div>
 
     <div class="brandsContainer">
-      <p class="brandTitle">Trabajamos todas las marcas</p>
-      <div class="brands">
+      <div data-aos="fade-up" >
+      <p class="brandTitle">Trabajamos todas las marcas</p >
+      </div>
+      <div class="brands" data-aos="fade-up">
         <img class="brandLogo" src="images/logo01.png" alt="">
         <img class="brandLogo" src="images/logo02.png" alt="">
         <img class="brandLogo" src="images/logo03.png" alt="">
@@ -55,14 +59,14 @@
       </div>
     </div>
 
-    <div class="stBoxContainer">
+    <div class="stBoxContainer" data-aos="zoom-in">
       <p class="text1">SERVICIO TECNICO A DOMICILIO</p>
       <div class="whiteStripe"></div>
       <p class="text2">Hablanos al Whatsapp para coordinar una visita</p>
       <div class="btnWp2"><a href="https://wa.me/91155975580" class="blanco" target="_blank"><i class="fab fa-whatsapp"></i></a></div>
     </div>
 
-    <div class="specContainer">
+    <div class="specContainer" data-aos="fade-up">
 
       <div class="specBox">
         <i class="fas fa-map-marked-alt spec"></i>
@@ -91,14 +95,14 @@
     </div>
 
     <div class="auContainer">
-      <div class="auBox">
+      <div class="auBox" data-aos="fade-right">
         <p class="textau1">SOBRE NOSOTROS</p>
         <div class="whiteStripe"></div>
         <p class="textau2">Creemos en la transparencia y la honestidad en todo lo que hacemos. Siempre le proporcionaremos una cotización precisa y detallada antes de comenzar cualquier trabajo, para que sepa exactamente lo que está pagando.</p>
       </div>
 
-      <div class="auBox2">
-        <img class="auImg" src="images/auImg.jpg" alt="">
+      <div class="auBox2" data-aos="fade-left">
+        <img class="auImg" src="images/auImg.jpg" alt="" >
           <ul class="auOl">
             <li>LAVARROPAS</li>
             <li>SECARROPAS</li>
@@ -114,11 +118,11 @@
     </div>
 
     <div class="resenaContainer">
-      <div class="resenaBox">
+      <div class="resenaBox" data-aos="fade-right">
         <img src="images/resenaImg.jpg" alt="">
       </div>
 
-      <div class="resenaBox2">
+      <div class="resenaBox2" data-aos="fade-left">
           <p class="textResena1">NUESTRAS RESEÑAS EN GOOGLE HABLAN POR SI SOLAS</p>
           <div class="whiteStripe"></div>
           <div class="resenaStarBox">
@@ -138,9 +142,10 @@
         </div>
       </div>
     </div>
-
-    
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
   </body>
 
 
