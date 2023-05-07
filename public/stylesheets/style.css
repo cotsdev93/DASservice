@@ -302,6 +302,18 @@ a{
     font-size: 13px;
   }
 
+  .mainImgContainer {
+    overflow: hidden;
+  }
+
+  .mainImg {
+    height: 250px;
+    width: auto;
+    text-align: center;
+    display: block;
+    margin: 0 auto
+  }
+
   .hablemosContainerContainer {
     position: relative;
     top:-50px
